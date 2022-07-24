@@ -51,11 +51,13 @@
             this.JumlahAnak = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.lajangg = new System.Windows.Forms.CheckBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // ptkp
             // 
-            this.ptkp.Location = new System.Drawing.Point(515, 60);
+            this.ptkp.Location = new System.Drawing.Point(39, 210);
             this.ptkp.Name = "ptkp";
             this.ptkp.Size = new System.Drawing.Size(184, 20);
             this.ptkp.TabIndex = 4;
@@ -64,7 +66,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Location = new System.Drawing.Point(512, 44);
+            this.label4.Location = new System.Drawing.Point(36, 194);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(69, 13);
             this.label4.TabIndex = 5;
@@ -74,7 +76,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Location = new System.Drawing.Point(512, 99);
+            this.label5.Location = new System.Drawing.Point(36, 249);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(55, 13);
             this.label5.TabIndex = 7;
@@ -83,7 +85,7 @@
             // 
             // pkp
             // 
-            this.pkp.Location = new System.Drawing.Point(515, 115);
+            this.pkp.Location = new System.Drawing.Point(39, 265);
             this.pkp.Name = "pkp";
             this.pkp.Size = new System.Drawing.Size(184, 20);
             this.pkp.TabIndex = 6;
@@ -92,7 +94,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Location = new System.Drawing.Point(488, 63);
+            this.label6.Location = new System.Drawing.Point(12, 213);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(21, 13);
             this.label6.TabIndex = 8;
@@ -102,7 +104,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Location = new System.Drawing.Point(488, 118);
+            this.label7.Location = new System.Drawing.Point(12, 268);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(21, 13);
             this.label7.TabIndex = 9;
@@ -112,7 +114,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Location = new System.Drawing.Point(488, 163);
+            this.label8.Location = new System.Drawing.Point(12, 313);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(21, 13);
             this.label8.TabIndex = 12;
@@ -122,7 +124,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Location = new System.Drawing.Point(512, 144);
+            this.label9.Location = new System.Drawing.Point(36, 294);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(29, 13);
             this.label9.TabIndex = 11;
@@ -130,14 +132,14 @@
             // 
             // pph
             // 
-            this.pph.Location = new System.Drawing.Point(515, 160);
+            this.pph.Location = new System.Drawing.Point(39, 310);
             this.pph.Name = "pph";
             this.pph.Size = new System.Drawing.Size(184, 20);
             this.pph.TabIndex = 10;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(322, 160);
+            this.button1.Location = new System.Drawing.Point(152, 173);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(74, 23);
             this.button1.TabIndex = 16;
@@ -149,7 +151,7 @@
             // 
             this.menikahh.AutoSize = true;
             this.menikahh.BackColor = System.Drawing.Color.Transparent;
-            this.menikahh.Location = new System.Drawing.Point(323, 127);
+            this.menikahh.Location = new System.Drawing.Point(153, 140);
             this.menikahh.Name = "menikahh";
             this.menikahh.Size = new System.Drawing.Size(67, 17);
             this.menikahh.TabIndex = 18;
@@ -159,7 +161,7 @@
             // 
             // masukanGaji
             // 
-            this.masukanGaji.Location = new System.Drawing.Point(209, 56);
+            this.masukanGaji.Location = new System.Drawing.Point(39, 69);
             this.masukanGaji.Name = "masukanGaji";
             this.masukanGaji.Size = new System.Drawing.Size(209, 20);
             this.masukanGaji.TabIndex = 1;
@@ -169,7 +171,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(182, 63);
+            this.label2.Location = new System.Drawing.Point(12, 76);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(21, 13);
             this.label2.TabIndex = 2;
@@ -179,7 +181,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(206, 41);
+            this.label3.Location = new System.Drawing.Point(36, 54);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(139, 13);
             this.label3.TabIndex = 3;
@@ -189,7 +191,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(206, 77);
+            this.label1.Location = new System.Drawing.Point(36, 90);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(144, 13);
             this.label1.TabIndex = 21;
@@ -199,7 +201,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Location = new System.Drawing.Point(182, 99);
+            this.label12.Location = new System.Drawing.Point(12, 112);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(21, 13);
             this.label12.TabIndex = 20;
@@ -207,14 +209,14 @@
             // 
             // bebanTanggung
             // 
-            this.bebanTanggung.Location = new System.Drawing.Point(209, 92);
+            this.bebanTanggung.Location = new System.Drawing.Point(39, 105);
             this.bebanTanggung.Name = "bebanTanggung";
             this.bebanTanggung.Size = new System.Drawing.Size(209, 20);
             this.bebanTanggung.TabIndex = 19;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(700, 269);
+            this.button2.Location = new System.Drawing.Point(136, 352);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 22;
@@ -226,7 +228,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Location = new System.Drawing.Point(206, 114);
+            this.label13.Location = new System.Drawing.Point(36, 127);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(68, 13);
             this.label13.TabIndex = 24;
@@ -234,14 +236,14 @@
             // 
             // JumlahAnak
             // 
-            this.JumlahAnak.Location = new System.Drawing.Point(209, 129);
+            this.JumlahAnak.Location = new System.Drawing.Point(39, 142);
             this.JumlahAnak.Name = "JumlahAnak";
             this.JumlahAnak.Size = new System.Drawing.Size(101, 20);
             this.JumlahAnak.TabIndex = 23;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(619, 269);
+            this.button3.Location = new System.Drawing.Point(55, 352);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 25;
@@ -253,7 +255,7 @@
             // 
             this.lajangg.AutoSize = true;
             this.lajangg.BackColor = System.Drawing.Color.Transparent;
-            this.lajangg.Location = new System.Drawing.Point(323, 144);
+            this.lajangg.Location = new System.Drawing.Point(153, 157);
             this.lajangg.Name = "lajangg";
             this.lajangg.Size = new System.Drawing.Size(58, 17);
             this.lajangg.TabIndex = 26;
@@ -261,15 +263,24 @@
             this.lajangg.UseVisualStyleBackColor = false;
             this.lajangg.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Location = new System.Drawing.Point(80, 1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.TabIndex = 27;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(787, 304);
+            this.ClientSize = new System.Drawing.Size(276, 398);
             this.ControlBox = false;
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lajangg);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label13);
@@ -297,8 +308,10 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hitung Pajak Tahunan Anda";
             this.Load += new System.EventHandler(this.Form2_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -327,5 +340,6 @@
         private System.Windows.Forms.TextBox JumlahAnak;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.CheckBox lajangg;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
