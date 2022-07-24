@@ -63,18 +63,18 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 61);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(132, 13);
+            this.label3.Size = new System.Drawing.Size(77, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Mohammad Arbi Yoganata";
+            this.label3.Text = "Rangga Krisna";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(12, 99);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(132, 13);
+            this.label4.Size = new System.Drawing.Size(73, 13);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Mohammad Arbi Yoganata";
+            this.label4.Text = "M Hafid Nur F";
             // 
             // label5
             // 
@@ -82,9 +82,9 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(13, 40);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(37, 7);
+            this.label5.Size = new System.Drawing.Size(30, 7);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Full Stack";
+            this.label5.Text = "Member";
             // 
             // label6
             // 
@@ -92,9 +92,9 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(13, 74);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(40, 7);
+            this.label6.Size = new System.Drawing.Size(30, 7);
             this.label6.TabIndex = 5;
-            this.label6.Text = "UI Disigner";
+            this.label6.Text = "Member";
             // 
             // label7
             // 
@@ -102,9 +102,9 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(13, 112);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(52, 7);
+            this.label7.Size = new System.Drawing.Size(30, 7);
             this.label7.TabIndex = 6;
-            this.label7.Text = "Code Designer";
+            this.label7.Text = "Member";
             // 
             // button1
             // 
